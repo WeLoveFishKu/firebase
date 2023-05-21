@@ -32,19 +32,19 @@ import com.google.firebase.messaging.RemoteMessage
 
 class MyFirebaseMessagingService: FirebaseMessagingService() {
     override fun onNewToken (p0: String) {
-    super.onNewToken(p0)
-    val refreshToken = FirebaseInstanceId.getInstance().teken
-    Log.e( "refreshtoken", refreshToken)
+        super.onNewToken(p0)
+        val refreshToken = FirebaseInstanceId.getInstance().teken
+        Log.e( "refreshtoken", refreshToken)
 
-//Kirim si token ke server
+        //Kirim si token ke server
 
-}
-override fun onMessageReceived(p0: RemoteMessage) {
-    super.onMessageReceived(p0)
+    }
+    override fun onMessageReceived(p0: RemoteMessage) {
+        super.onMessageReceived(p0)
 
-    //Munculkan notifikasinya
-    showNotification (p0.notification?.title.toString(), p0.notification?.body.toString())
-}
+        //Munculkan notifikasinya
+        showNotification (p0.notification?.title.toString(), p0.notification?.body.toString())
+    }
 
     fun showNotification (title: String, message: String) {
         val builder = NotificationCompat.Builder(this, "test-notif")
@@ -52,6 +52,8 @@ override fun onMessageReceived(p0: RemoteMessage) {
             .setContentText(message)
         val manager = NotificationManagerCompat.from(this)
         manager.notify(222, builder.build())
+      }
+}
 ```
 
 **Then Run Application**
