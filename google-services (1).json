@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "64822032599",
+    "firebase_url": "https://fisku-36c86-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "fisku-36c86",
+    "storage_bucket": "fisku-36c86.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:64822032599:android:78ea7fe34cb6a189ba1892",
+        "android_client_info": {
+          "package_name": "id.fishku.fisherseller"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "64822032599-svkm4uu1gp1ma9shlh578i5naasn4olp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZFqyVSIFak21mgP16wWvmmGlxztnQaEs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "64822032599-78mlirr6jq21gftpi88sucjbm4kf4jtq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
