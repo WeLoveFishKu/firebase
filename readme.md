@@ -1,13 +1,12 @@
 ## Config Firebase to App
 #### 1. Register app
     
-![Cuplikan layar 2023-05-21 193815](https://github.com/WeLoveFishKu/firebase/assets/44109243/85f5cecc-1e99-4fc6-8814-ca7b13da3513)
+![Cuplikan layar 2023-05-21 193815](https://github.com/WeLoveFishKu/firebase/assets/44109243/64238b3e-6878-4b39-b416-67a573c30e76)
+
 
 #### 2. Move google-services.json file into your module (app-level) root directory.
- 
-  ![android_studio_project_panel@2x](https://github.com/WeLoveFishKu/firebase/assets/44109243/6691f3c4-41c9-4723-b621-0c43c7faac71)
 
-
+![android_studio_project_panel@2x](https://github.com/WeLoveFishKu/firebase/assets/44109243/18beecfe-9b3e-4270-b915-88ce6455c842)
 
 #### 3. Add Firebase SDK
     - Add the plugin as a buildscript dependency to your project-level build.gradle file:
